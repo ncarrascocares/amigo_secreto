@@ -9,8 +9,9 @@ let dato;
 // funcion
 function agregarAmigo(){
     dato = document.getElementById("amigo").value;
+    //Validando que los datos no vengan vacios
     //Llenando el array
-    amigos.push(dato);
+    validaDatos(dato)
     limpiar();
     console.log(amigos);
 }
@@ -18,4 +19,12 @@ function agregarAmigo(){
 //Esta función quedo operativa
 function limpiar(){
     document.getElementById("amigo").value = "";
+}
+
+function validaDatos(valor){
+    if(valor === ""){
+        alert("Por favor, inserte un nombre."); 
+    }else{
+        amigos.push(dato); 
+    }
 }
