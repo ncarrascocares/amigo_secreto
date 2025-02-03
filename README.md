@@ -1,0 +1,1 @@
+Este proyecto permite sortear aleatoriamente el nombre de un amigo almacenado en una lista. Para usarlo, simplemente agrega los nombres a la lista y, cuando hayas terminado, presiona el botón "Sortear Amigo". El programa seleccionará un nombre al azar y lo mostrará en pantalla como el amigo secreto
