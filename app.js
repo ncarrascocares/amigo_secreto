@@ -16,6 +16,11 @@ function agregarAmigo(){
     console.log(amigos);
 }
 
+function sortearAmigo(){
+    elementosArrays = amigos.length;
+    elementosArrays == 0 ? alert("No se han ingresado amigos") : console.log(amigos[Math.floor(Math.random() * elementosArrays)]);
+}
+
 //Esta función quedo operativa
 function limpiar(){
     document.getElementById("amigo").value = "";
